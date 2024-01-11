@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_mmoegele_hello_dotnet_core_1704988744214-pr-trigger-input-set
+  identifier: Build_mmoegele_hello_dotnet_core_1704988744214prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_mmoegele_hello_dotnet_core_1704988744214
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
